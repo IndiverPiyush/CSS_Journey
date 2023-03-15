@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+body {
+  background-color: black;
+}
+
+.div__btn {
+  margin-left: 50%;
+  margin-top: 350px;
+  margin-trim: 10px;
+  color: white;
+  font-weight: 8px;
+}
+
+.btn {
+  font-family: "Montserrat";
+  background-color: black;
+  color: white;
+  border-color: #ddd101;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  border-width: 2px;
+  box-shadow: 0 0 8px 4px #ddd101;
+  transition: none;
+  border-style: solid;
+}
