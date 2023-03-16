@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap");
+
+body {
+  background: linear-gradient(to right top, #abfd34 0%, #2090fe 100%);
+  height: 705px;
+}
+
+.center {
+  background: white;
+  height: 500px;
+  width: 400px;
+  position: absolute;
+  border-radius: 10px;
+  left: 550px;
+  top: 100px;
+}
+
+h1 {
+  font-family: "Sansita Swashed";
+  letter-spacing: 3px;
+  position: absolute;
+  top: 50px;
+  padding: 10px 15px;
+  left: 45px;
+  border-left: solid 5px #2090fe;
+}
+
+form {
+  position: absolute;
+  top: 150px;
+}
+
+.inputbox > input {
+  width: 300px;
+  height: 35px;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+.inputbox > span {
+  font-family: "Montserrat";
+  position: absolute;
+  left: 25px;
+  top: 10px;
+  font-weight: 600;
+}
+
+form > div:first-child {
+  position: relative;
+  top: 40px;
+  left: 50px;
+}
+
+form > div:nth-child(2) {
+  position: relative;
+  top: 90px;
+  left: 50px;
+}
+
+form > div:last-child > input {
+  position: relative;
+  width: 160px;
+  height: 40px;
+  top: 140px;
+  left: 50px;
+  border: none;
+  font-family: "Montserrat";
+  background: #1d90ff;
+  color: white;
+  font-weight: 600;
+  font-size: medium;
+}

@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap");
+
+.content {
+  font-family: "Montserrat";
+  position: absolute;
+  top: 350px;
+  display: inline;
+  width: 100%;
+  color: white;
+}
+
+.logo-details {
+  position: absolute;
+  top: 30px;
+  left: 130px;
+}
+
+.top {
+  font-family: "Montserrat";
+  font-size: x-large;
+  font-weight: bold;
+  display: block;
+  background: #140b5c;
+  height: 80px;
+}
+
+.media-icons {
+  position: absolute;
+  left: 1052px;
+  top: 30px;
+  display: table;
+  margin-left: 30px;
+  width: 350px;
+  color: white;
+  font-size: 16px;
+}
+
+.media-icons > a > i {
+  margin-left: 25px;
+  padding: 12px;
+  color: white;
+}
+
+.bottom-details {
+  position: absolute;
+  top: 681px;
+  width: 100%;
+  height: 55px;
+  background: #0f0844;
+}
+
+.bottom_text {
+  width: 100%;
+}
+
+.copyright_text {
+  font-family: "Montserrat";
+  color: #cad5e2;
+  position: absolute;
+  text-decoration: none;
+  margin-top: 10px;
+  left: 130px;
+}
+
+.policy_terms {
+  position: absolute;
+  font-family: "Montserrat";
+  color: #cad5e2;
+  margin-top: 10px;
+  text-decoration: none;
+  left: 1000px;
+}
+
+.policy_terms > a,
+.copyright_text > a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  color: #cad5e2;
+}
+
+.policy_terms > a:last-child {
+  margin-left: 10px;
+}
+
+.link-boxes {
+  border-top: solid thin;
+  background: #140b5c;
+  width: 100%;
+  height: 250px;
+}
+
+ul {
+  margin-left: 90px;
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  margin-top: 5px;
+  color: #cad5e2;
+}
+
+ul > li {
+  margin-top: 15px;
+  list-style: none;
+}
+
+.input-box {
+  position: absolute;
+  top: 76px;
+}
+
+.input-box > li:last-of-type > input:last-of-type {
+  width: 257px;
+  background: #cad5e2;
+  color: #140b5c;
+  font-family: "Montserrat";
+  text-decoration: none;
+  border: solid #cad5e2;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 620;
+  text-align: center;
+}
+
+input:first-of-type {
+  background: #140b5c;
+  color: #cad5e2;
+  padding: 10px 20px;
+  width: 210px;
+  font-family: "Montserrat";
+  text-decoration: none;
+  border: solid #cad5e2;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.fa-youtube {
+  background: red;
+  border-radius: 27px;
+}
+
+.fa-linkedin-in {
+  background: #207398;
+  border-radius: 27px;
+}
+
+.fa-instagram {
+  background: #d82e2f;
+  border-radius: 27px;
+}
+
+.fa-twitter {
+  background: #1b98f5;
+  border-radius: 27px;
+}
+
+.fa-facebook-f {
+  margin-left: 10px;
+  background: #3944f7;
+  border-radius: 30px;
+  width: 15px;
+}

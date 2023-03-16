@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap");
+
+body {
+  background: black;
+}
+
+.form {
+  background: #15172b;
+  font-family: "Montserrat";
+  width: 315px;
+  height: 475px;
+  margin-top: 120px;
+  margin-left: 39%;
+  color: white;
+  border-radius: 10px;
+}
+
+.form > div {
+  margin-left: 15px;
+}
+
+.title {
+  position: absolute;
+  top: 160px;
+  font-weight: 700;
+  font-size: xx-large;
+}
+
+.subtitle {
+  position: absolute;
+  top: 207px;
+}
+
+.ic1 {
+  position: absolute;
+  top: 257px;
+  width: 270px;
+  height: 50px;
+}
+
+.ic1 > .input {
+  width: 270px;
+  height: 43px;
+  background: #303246;
+  color: #65657b;
+  border: none;
+  border-radius: 10px;
+}
+
+.ic1 > .placeholder {
+  position: absolute;
+  color: #65657b;
+  top: 11px;
+  left: 15px;
+}
+.ic2 {
+  position: absolute;
+  top: 333px;
+  width: 270px;
+  height: 50px;
+}
+.ic2 > .input {
+  width: 270px;
+  height: 43px;
+  background: #303246;
+  color: #65657b;
+  border: none;
+  border-radius: 10px;
+}
+
+.ic2 > .placeholder {
+  position: absolute;
+  color: #65657b;
+  top: 11px;
+  left: 15px;
+}
+.ic3 {
+  position: absolute;
+  top: 408px;
+  width: 270px;
+  height: 50px;
+}
+.ic3 > .input {
+  width: 270px;
+  height: 43px;
+  background: #303246;
+  color: #65657b;
+  border: none;
+  border-radius: 10px;
+}
+
+.ic3 > .placeholder {
+  position: absolute;
+  color: #65657b;
+  top: 11px;
+  left: 15px;
+}
+button {
+  position: absolute;
+  font-family: "Montserrat";
+  top: 485px;
+  padding: 17px 105px;
+  border-radius: 10px;
+  left: 614px;
+  font-weight: 500;
+  border: none;
+  background: #0088dd;
+  color: white;
+  font-size: larger;
+}
