@@ -1,0 +1,12 @@
+ul > li {
+  display: flex;
+  display: inline-block;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: absolute;
+  top: 10px;
+}
+
+body > ul > li > ul > li {
+  display: block;
+}
